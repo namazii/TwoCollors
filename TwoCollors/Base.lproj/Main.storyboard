@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,28 +13,31 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TwoCollors" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e19-9a-mJT">
-                                <rect key="frame" x="20" y="473" width="374" height="399"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e19-9a-mJT">
+                                <rect key="frame" x="20" y="492" width="388" height="380"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="LOA-Yh-a4d"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="399" id="dCT-3Q-M23"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iTK-f7-S1g">
-                                <rect key="frame" x="20" y="44" width="374" height="399"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iTK-f7-S1g">
+                                <rect key="frame" x="20" y="69" width="388" height="399"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="399" id="B6p-OF-CN6"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="BUU-hg-0AF"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iTK-f7-S1g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="2RV-oC-mAY"/>
+                            <constraint firstItem="e19-9a-mJT" firstAttribute="top" secondItem="iTK-f7-S1g" secondAttribute="bottom" constant="24" id="JQR-dz-6k8"/>
+                            <constraint firstItem="e19-9a-mJT" firstAttribute="height" secondItem="iTK-f7-S1g" secondAttribute="height" multiplier="0.952381" id="P8E-oe-tsU"/>
+                            <constraint firstItem="iTK-f7-S1g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TJ9-da-ZBW"/>
+                            <constraint firstItem="e19-9a-mJT" firstAttribute="width" secondItem="iTK-f7-S1g" secondAttribute="width" id="a4f-PQ-Kdb"/>
+                            <constraint firstItem="e19-9a-mJT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="c4r-Gh-ZYa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e19-9a-mJT" secondAttribute="trailing" constant="20" id="gEF-0f-gUb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iTK-f7-S1g" secondAttribute="trailing" constant="20" id="i8J-CJ-Ach"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="e19-9a-mJT" secondAttribute="bottom" constant="20" id="s9f-LQ-Hao"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
