@@ -28,15 +28,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="iTK-f7-S1g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="2RV-oC-mAY"/>
-                            <constraint firstItem="e19-9a-mJT" firstAttribute="top" secondItem="iTK-f7-S1g" secondAttribute="bottom" constant="24" id="JQR-dz-6k8"/>
-                            <constraint firstItem="e19-9a-mJT" firstAttribute="height" secondItem="iTK-f7-S1g" secondAttribute="height" multiplier="0.952381" id="P8E-oe-tsU"/>
-                            <constraint firstItem="iTK-f7-S1g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TJ9-da-ZBW"/>
-                            <constraint firstItem="e19-9a-mJT" firstAttribute="width" secondItem="iTK-f7-S1g" secondAttribute="width" id="a4f-PQ-Kdb"/>
-                            <constraint firstItem="e19-9a-mJT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="c4r-Gh-ZYa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e19-9a-mJT" secondAttribute="trailing" constant="20" id="gEF-0f-gUb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iTK-f7-S1g" secondAttribute="trailing" constant="20" id="i8J-CJ-Ach"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="e19-9a-mJT" secondAttribute="bottom" constant="20" id="s9f-LQ-Hao"/>
+                            <constraint firstItem="e19-9a-mJT" firstAttribute="width" secondItem="iTK-f7-S1g" secondAttribute="width" id="05j-YK-fCv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iTK-f7-S1g" secondAttribute="trailing" constant="20" id="15h-GZ-g49"/>
+                            <constraint firstItem="e19-9a-mJT" firstAttribute="top" secondItem="iTK-f7-S1g" secondAttribute="bottom" constant="24" id="3Kv-B6-nkn"/>
+                            <constraint firstItem="e19-9a-mJT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6kJ-8e-lXk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="e19-9a-mJT" secondAttribute="bottom" constant="20" id="C8C-rz-f89"/>
+                            <constraint firstItem="iTK-f7-S1g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="RaT-NJ-ruB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e19-9a-mJT" secondAttribute="trailing" constant="20" id="ZQQ-Fm-l0i"/>
+                            <constraint firstItem="iTK-f7-S1g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="agY-FK-yj0"/>
+                            <constraint firstItem="e19-9a-mJT" firstAttribute="height" secondItem="iTK-f7-S1g" secondAttribute="height" multiplier="0.952381" id="iJY-dJ-5oK"/>
                         </constraints>
                     </view>
                 </viewController>
